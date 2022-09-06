@@ -11,6 +11,7 @@ body {
     background-image: url(../Imagenes/AGUA.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
+
 }
 
 nav {
@@ -183,6 +184,7 @@ nav ul li a:hover {
 .NuevosIngresos {
     text-align: center;
     margin-bottom: 10px;
+ 
 
 }
 
@@ -208,6 +210,7 @@ nav ul li a:hover {
     text-align: left;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 
 .nuevosingresosreceta__articulo {
@@ -216,6 +219,7 @@ nav ul li a:hover {
     text-align: center;
     border: 1px solid #ccc;
     padding: 10px;
+  
 }
 
 
@@ -224,6 +228,7 @@ nav ul li a:hover {
     text-align: left;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .nuevosingresosreceta__tiitulo--xl {
@@ -231,6 +236,7 @@ nav ul li a:hover {
     text-align: right;
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 
@@ -358,6 +364,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin: 10px 10px;
+    transform: translate(-50px);
 }
 
 .galeria figure img {
@@ -572,10 +579,29 @@ textarea {
 }
 
 .btn .bg-blue{
-    color:  #025373;
 }
 
 
 .nav-link{
     color:white
 }
+
+.linear-gradient{
+    background: linear-gradient(to right, blue, skyblue);
+}
+
+
+.pie2{
+    background: linear-gradient(to left, pink, deeppink);
+}
+
+.imag--fluid:hover{
+    transform: scale(0.5)
+}
+
+.transform:hover{
+    transform: rotate(25deg);
+
+}
+
+
