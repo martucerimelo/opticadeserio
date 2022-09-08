@@ -80,9 +80,10 @@ main section p {
 }
 
 
-.bg-blue{
+.bg-blue {
     back
 }
+
 nav ul {
     list-style: none;
     padding: 6px;
@@ -184,7 +185,7 @@ nav ul li a:hover {
 .NuevosIngresos {
     text-align: center;
     margin-bottom: 10px;
- 
+
 
 }
 
@@ -210,7 +211,7 @@ nav ul li a:hover {
     text-align: left;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+
 }
 
 .nuevosingresosreceta__articulo {
@@ -219,7 +220,7 @@ nav ul li a:hover {
     text-align: center;
     border: 1px solid #ccc;
     padding: 10px;
-  
+
 }
 
 
@@ -228,7 +229,7 @@ nav ul li a:hover {
     text-align: left;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
 
 .nuevosingresosreceta__tiitulo--xl {
@@ -329,7 +330,7 @@ nav ul li a:hover {
 }
 
 .linear-gradient {
-    background: linear-gradient( to right, pink, deeppink);
+    background: linear-gradient(to right, pink, deeppink);
 }
 
 .transform:hover {
@@ -573,35 +574,124 @@ textarea {
 }
 */
 
-#fotosmood{
+#fotosmood {
     height: 30%;
     width: 50%;
 }
 
-.btn .bg-blue{
+.btn .bg-blue {}
+
+
+.nav-link {
+    color: white
 }
 
-
-.nav-link{
-    color:white
-}
-
-.linear-gradient{
+.linear-gradient {
     background: linear-gradient(to right, blue, skyblue);
 }
 
 
-.pie2{
+.pie2 {
     background: linear-gradient(to left, pink, deeppink);
 }
 
-.imag--fluid:hover{
+.imag--fluid:hover {
     transform: scale(0.5)
 }
 
-.transform:hover{
+.transform:hover {
     transform: rotate(25deg);
 
 }
 
+.navbarbg-blue {
+    color: blue;
+}
 
+.bg-blue {
+    color: blue;
+}
+
+
+.roundedfloat-star {
+    height: min-content;
+    width: min-content
+}
+
+.roundedfloat-end {
+    height: min-content;
+    width: min-content;
+}
+
+.imagelemento {
+    width: 100%;
+
+}
+
+.imagelemento img {
+    width: 100%;
+}
+
+.galery {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: (3, 1fr; );
+    column-gap: .5rem;
+    row-gap: .5rem;
+}
+
+.encabezado-contenedor {
+    display: flex;
+    justify-content: center;
+
+}
+
+#header {}
+
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-content-md-between p {
+
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+    padding-top: 20%;
+    padding-left: 50%;
+}
+
+
+.border-success {
+    --bs-border-opacity: 1;
+    border-color: pink (var(--bs-success-rgb), var(--bs-border-opacity));
+}
+
+.nuestrahistoria-contenedor {
+    display: flex;
+    justify-content: space-around
+}
+
+.g-col-2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.g-col-2 h1 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #025373;
+}
+
+
+.g-col-2 p {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-bg-light {
+    color: PINK
+}

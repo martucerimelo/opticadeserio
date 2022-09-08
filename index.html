@@ -1,129 +1,174 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deserio, Óptica y Contactología</title>
-    <link rel="shortcut icon" href="imagenes/favicon-16x16.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/fresco.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Hello, world!</title>
 </head>
 
-
 <body>
-    <div class="contenedor">
-    <div class="anuncio__box--white" id="numeros" >
-        <p>Número de contacto: 2262513346</p>
-    </div>
-    <nav class="bg-violet" id="nav">
-        
-        <a href="index.html">
-            <img class="header-img" src="./Imagenes/logo sin.png" alt="logo de Deserio, Óptica y Contactología">
-        </a>
-        <ul>
-            <li>
-                <a href="./index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="./Nosotros.html">Nosotros</a>
-            </li>
-            <li>
-                <a href="./Anteojos.html">Anteojos</a>
-            </li>
-            <li>
-                <a href="./Lentes-de-contacto.html">Lentes de contacto</a>
-            </li>
-            <li>
-                <a href="./Contacto.html">Contacto</a>
-            </li>
+  <div class="anuncio__box--white" id="numeros">
+    <p>Número de contacto: 2262513346</p>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-blue mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img class="header-img" src="./Imagenes/logo sin.png" alt="logo de optica deserio collor blanco">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="./Anteojos-de-sol.html" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Anteojos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./Anteojos-de-sol.html">Anteojos de sol</a>
+              <a class="dropdown-item" href="./armazones-recetados.html">Armazones recetados</a>
+              <a class="dropdown-item" href="#">Mujer</a>
+              <a class="dropdown-item" href="#">Hombre</a>
+              <a class="dropdown-item" href="#">Niño</a>
+              <a class="dropdown-item" href="./lentes-de-contacto.html">Lentes de contacto</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./lentes-de-contacto.html">Lentes de Contacto</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="./Contacto.html"> Contacto</a>
+          </li>
+
         </ul>
-    </nav>
-    <header class="encabezado"  id="header">
-        <div class="transform">
-        <img src="./Imagenes/FOTOMOODINDEX.jpg" alt="Foto de los integrantes de la Optica"
-            class="encabezado__img--fluid">
-        </div>
-    </header>
-
-    <div id="filtros">
-        <form>
-            <select name="localidad" id="localidad">
-                <option value="caba">Categorias</option>
-                <option value="bsas">Anteojos de sol</option>
-                <option value="interior">Anteojos Recetados</option>
-                <option value="interior">Lentes de contacto</option>
-            </select>
-        </form>
-        <b class="textLeft">Anteojos Recetados</b>
-        <u>
-            <li>Vulk Dieven(2)</li>
-            <li>Vulk Stray(3)</li>
-            <li>Vulk Elusive(1)</li>
-        </u>
+      </div>
+    </div>
+    </div>
     </div>
 
-    <main id="productos">
-        <div class="galeria  container---fluid">
-            <figure>
-                <div class="imag--fluid">
-                <img src="./Imagenes/VULK-FW22-----DIEVEN.jpg" alt="foto de un anteojo de receta marca vulk"
-                    class="encabezado__img--fluid">
-                </div>
+  </nav>
 
-                <figcaption> Modelo Dieven Vulk</figcaption>
-                <p class="price"> $12000</p>
-            </figure>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner py-3 mb-30  ">
+      <div class=".justify-content-md-between">
+        <h1> RUSTY</h1>
+        <div class="text-bg-light p-3">TEMPORADA 2023 COMING SOON</div>
+        <p>TEMPORADA 2023 COMING SOON</p>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <img class="d-block w-100 mb-3" id="fotosmood" src="./Imagenes/imgbanner4.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" id="fotosmood" src="./Imagenes/imag2banner.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" id="fotosmood" src="./Imagenes/bannerwebrusty_campañass23_01.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  <main class="py-3">
+    <div class="container-fluid">
+      <h2 class="text-sm-start text-md-center-lg-end">Vulk</h2>
+      <div class="row">
+        <article class="col-sm-12-col-md-6- col-lg3 mb-3">
+          <div class="card">
+            <img id="fotosmood" src="./Imagenes/bannerwebvulk_campañass23_01.jpg" class="card-img-top w-100"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn bg-blue">Go somewhere</a>
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-12-col-md-6- col-lg3 mb-3">
+          <div class="card">
+            <img id="fotosmood" src="./Imagenes/fotogrupalvulk.jpg" class="card-img-top w-100" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn bg-blue">Go somewhere</a>
+            </div>
+          </div>
+          <section class="py-3">
+            <div class="container-fluid">
+              <h3>Contacto</h3>
+              <div class="row">
+                <article class="col-sm-12 col-md-12 col-lg-8">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn bg-blue mb-3">Submit</button>
+                  </form>
+                </article>
+                <article class="col-sm-12 col-md-12 col-lg-4">
+                  <img src="./Imagenes/fotomodd.jpg" alt="foto mod anteojos" class="w-100 img-thumbnail">
+                </article>
+              </div>
+            </div>
+            <footer class="pie" id="footer">
+              <h3 class="pie__titulo--md">Seguinos en nuestras redes</h3>
+              <a href="https://www.instagram.com/deserionecochea/" target="_blank">
+                <img src="Imagenes/dfdf.png" alt="Seguinos en Instagram">
+              </a>
+              <a href="https://www.facebook.com/deserionecochea" target="_blank">
+                <img src="Imagenes/sasasas.png" alt="Seguinos en facebook">
+              </a>
+            </footer>
+      </div>
+</body>
 
-            <figure>
-                <img src="./Imagenes/VULK-FW22----STRAY.jpg " alt="foto de un anteojo de receta marca vulk"
-                    class="encabezado__img--fluid">
-                <figcaption>Modelo Stray Vulk</figcaption>
-                <p class="price">$12000</p>
-            </figure>
 
-            <figure>
-                <img src="./Imagenes/VULK-FW22--ELUSIVE.jpg" alt="foto de un anteojo de receta marca vulk"
-                    class="encabezado__img--fluid">
-                <figcaption>Modelo Elusive Vulk</figcaption>
-                <p class="price">$12500</p>
-            </figure>
-        </div>
-
-    </main>
-    <!--
-    <aside id="aside" class="secondNav bg-light">
-        <img src="./Imagenes/carrito.png" alt="carritodecompra" class="encabezado__img--fluid">
-        <img src="./Imagenes/iconocelu.png" alt="iconodecelu" class="encabezado__img--fluid">
-    </aside>
-    -->
-
-    <main class="NuevosIngresos"  id="ingresos">
-        <section>
-            <article class="nuevosingresosssol__articulo">
-                <h1 class="titulo text-center nuevosingresoss__titulo--xl">Nuevos Ingresos Sol</h1>
-                <p class="nuevodesoll__text--md">Ingresa en esta sección para conocer lo nuevo de Sol</p>
-            </article>
-            <article class="bg-deeppink nuevosingresosreceta__articulo">
-                <h2 class="nuevosingresosreceta__titulo--xl"> Nuevos Ingresos Receta</h2>
-                <p class="nuevosingresosreceta__tiitulo--xl"> Ingresa en esta sección para conocer lo nuevo de receta
-                </p>
-        </section>
-    </main>
-    <footer class="pie" id="footer">
-        <h3 class="pie__titulo--md">Seguinos en nuestras redes</h3>
-        <a href="https://www.instagram.com/deserionecochea/" target="_blank">
-            <img src="Imagenes/dfdf.png" alt="Seguinos en Instagram">
-        </a>
-        <a href="https://www.facebook.com/deserionecochea" target="_blank ">
-            <img src="Imagenes/sasasas.png" alt="Seguinos en facebook">
-        </a>
-    </footer>
-</div>
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/fresco.min.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
