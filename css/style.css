@@ -583,7 +583,7 @@ textarea {
 
 
 .nav-link {
-    color: white
+    color: white;
 }
 
 .linear-gradient {
@@ -596,7 +596,7 @@ textarea {
 }
 
 .imag--fluid:hover {
-    transform: scale(0.5)
+    transform: scale(0.5);
 }
 
 .transform:hover {
@@ -672,7 +672,7 @@ textarea {
 
 .nuestrahistoria-contenedor {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .g-col-2 {
@@ -693,5 +693,5 @@ textarea {
 }
 
 .text-bg-light {
-    color: PINK
+    color: PINK;
 }
