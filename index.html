@@ -27,7 +27,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="botonera">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="./index.html">Inicio<span class="sr-only">(current)</span></a>
@@ -69,21 +69,23 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner py-3 mb-30  ">
-      <div class=".justify-content-md-between">
-        <h1> RUSTY</h1>
-        <div class="text-bg-light p-3">TEMPORADA 2023 COMING SOON</div>
-  
+    <div class="carousel-inner py-3 mb-30">
+      <div class=" d-flex justify-content-md-between flex-column align-items-center">
+        <div class="transform">
+          <h1>RUSTY</h1>
+        </div>
+        <div class="text-bg-light p-3 transform bg-white p-2 text-pink bg-opacity-25">TEMPORADA 2023 COMING SOON</div>
+
       </div>
     </div>
     <div class="carousel-item active">
-      <img class="d-block w-100 mb-3" id="fotosmood" src="./Imagenes/imgbanner4.jpg" alt="First slide">
+      <img id="fotosmood" src="./Imagenes/imgbanner4.jpg" class="d-block  mb-3" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" id="fotosmood" src="./Imagenes/imag2banner.jpg" alt="Second slide">
+      <img id="fotosmood" src="./Imagenes/imag2banner.jpg" class="d-block " alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" id="fotosmood" src="./Imagenes/bannerwebrusty_campañass23_01.jpg" alt="Third slide">
+      <img id="fotosmood" src="./Imagenes/bannerwebrusty_campañass23_01.jpg" class="d-block " alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -95,69 +97,55 @@
     <span class="sr-only">Next</span>
   </a>
   </div>
-  <main class="py-3">
+  <div class="todos">
+    <div class="fotossol">
+      <img src="./Imagenes/VULK-FW22-----DIEVEN.jpg" alt="..">
+    </div>
+    <div class="fotossol">
+      <img src="./Imagenes/VULK-FW22-----DIEVEN.jpg" alt="..">
+    </div>
+    <div class="fotossol">
+      <img src="./Imagenes/VULK-FW22-----DIEVEN.jpg" alt="..">
+    </div>
+  </div>
+  </div>
+  <section class="py-3">
     <div class="container-fluid">
-      <h2 class="text-sm-start text-md-center-lg-end">Vulk</h2>
+      <h3>Contacto</h3>
       <div class="row">
-        <article class="col-sm-12-col-md-6- col-lg3 mb-3">
-          <div class="card">
-            <img id="fotosmood" src="./Imagenes/bannerwebvulk_campañass23_01.jpg" class="card-img-top w-100"
-              alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn bg-blue">Go somewhere</a>
+        <article class="col-sm-12 col-md-12 col-lg-8">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-          </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn bg-blue mb-3">Submit</button>
+          </form>
         </article>
-        <article class="col-sm-12-col-md-6- col-lg3 mb-3">
-          <div class="card">
-            <img id="fotosmood" src="./Imagenes/fotogrupalvulk.jpg" class="card-img-top w-100" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn bg-blue">Go somewhere</a>
-            </div>
-          </div>
-          <section class="py-3">
-            <div class="container-fluid">
-              <h3>Contacto</h3>
-              <div class="row">
-                <article class="col-sm-12 col-md-12 col-lg-8">
-                  <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn bg-blue mb-3">Submit</button>
-                  </form>
-                </article>
-                <article class="col-sm-12 col-md-12 col-lg-4">
-                  <img src="./Imagenes/fotomodd.jpg" alt="foto mod anteojos" class="w-100 img-thumbnail">
-                </article>
-              </div>
-            </div>
-            <footer class="pie" id="footer">
-              <h3 class="pie__titulo--md">Seguinos en nuestras redes</h3>
-              <a href="https://www.instagram.com/deserionecochea/" target="_blank">
-                <img src="Imagenes/dfdf.png" alt="Seguinos en Instagram">
-              </a>
-              <a href="https://www.facebook.com/deserionecochea" target="_blank">
-                <img src="Imagenes/sasasas.png" alt="Seguinos en facebook">
-              </a>
-            </footer>
+        <article class="col-sm-12 col-md-12 col-lg-4">
+          <img src="./Imagenes/fotomodd.jpg" alt="foto mod anteojos" class="w-100 img-thumbnail">
+        </article>
       </div>
+    </div>
+    <footer class="pie" id="footer">
+      <h3 class="pie__titulo--md">Seguinos en nuestras redes</h3>
+      <a href="https://www.instagram.com/deserionecochea/" target="_blank">
+        <img src="Imagenes/dfdf.png" alt="Seguinos en Instagram">
+      </a>
+      <a href="https://www.facebook.com/deserionecochea" target="_blank">
+        <img src="Imagenes/sasasas.png" alt="Seguinos en facebook">
+      </a>
+    </footer>
+    </div>
 </body>
 
 

@@ -695,3 +695,179 @@ textarea {
 .text-bg-light {
     color: PINK;
 }
+
+#botonera ul li a:visited {
+    color: white
+}
+
+#botonera ul li a:active {
+    color: black
+}
+
+#header:hover {
+    transform: rotate3d(10deg);
+}
+
+.transform:hover {
+    transform: translateX(20px);
+    cursor: pointer;
+    font-size: 3rem;
+    transition: transform 2s;
+}
+
+.h1-1 .transform:hover {
+    transform: translateY(20px);
+}
+
+.rotate:hover {
+    transform: rotateX(-20deg);
+    cursor: pointer;
+    transition: transform 3s;
+}
+
+
+#headerr {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@keyframes AnimateDiv {
+    0% {
+        width: 100px;
+        background-color: #F2F2F2;
+    }
+
+    50% {
+        width: 200px;
+        background-color: #91C5F2;
+    }
+
+    100% {
+        width: 100px;
+        background-color: #F2F2F2;
+    }
+}
+
+.animate {
+    animation-name: AnimateDiv;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+.transition {
+    width: 100%;
+}
+
+@keyframes textAlpha {
+    from(opacity: 0; ) from(opacity: 1; )
+}
+
+h1 {
+    animation-name: textAlpha;
+    animation-duration: 2s;
+}
+
+.g-col-2text-decoration-none {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.carousel {
+    height: 800px;
+    margin-bottom: 20px;
+}
+
+.todos {
+    display: flex;
+}
+
+.fotossol {
+    width: 32%;
+    margin-right: 10px;
+    justify-content: space-between;
+
+}
+
+.carousel img{
+    width: 600px;
+}
+
+.card-group {
+    display: flex;
+}
+
+.card {
+    width: 32%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+
+.card-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    color: #025373;
+}
+
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #3999BF;
+}
+
+
+
+
+.card-titlelentes {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #3999BF;
+    justify-content: space-between;
+}
+
+.card-textlentes {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #496ede;
+}
+
+.ojo-seco {
+    display: flex;
+}
+
+
+.contacto {
+    display: flex;
+}
+
+.contacto-con {
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.contacto p {
+    text-align: center;
+}
+
+
+.imageness {
+    display: flex;
+}
+
+.gg {
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #91C5F2;
+}
