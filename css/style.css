@@ -796,9 +796,13 @@ h1 {
 
 }
 
-.carousel img{
-    width: 600px;
+
+
+.carousel img {
+    width: 1200px;
 }
+
+
 
 .card-group {
     display: flex;
@@ -868,6 +872,6 @@ h1 {
     justify-content: space-between;
 }
 
-.footer{
+.footer {
     background-color: #91C5F2;
 }
