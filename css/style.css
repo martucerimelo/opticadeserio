@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Serif+Pro:wght@200;400&display=swap");
+
 * {
     padding: 0;
     margin: 0;
@@ -25,13 +27,6 @@ nav {
     width: 150px;
 }
 
-ul {
-    display: flex;
-}
-
-ul li {
-    margin-left: 10px;
-}
 
 h1 {
 
@@ -79,11 +74,6 @@ main section p {
     font-weight: 400;
 }
 
-
-.bg-blue {
-    back
-}
-
 nav ul {
     list-style: none;
     padding: 6px;
@@ -103,20 +93,12 @@ nav ul li a:hover {
 
 }
 
-
 .bg-light {
     background-color: #496ede;
     margin-bottom: 20px;
 
 }
 
-.bg-chocolate {
-    background-color: #eff0f2
-}
-
-.text-center {
-    text-align: center;
-}
 
 .text-left {
     text-align: left;
@@ -139,7 +121,7 @@ nav ul li a:hover {
     padding: 4px 0;
     position: sticky;
     top: 0;
-    width: 100%
+    width: 100%;
 }
 
 .encabezado {
@@ -151,22 +133,6 @@ nav ul li a:hover {
 
 .encabezado__img--fluid {
     width: 30%;
-}
-
-.novedades__articulo {
-    width: 90%;
-    height: 200px;
-    margin: 50px auto;
-    padding: 40px 20px;
-    border: dotted #025373 2px;
-    overflow-x: scroll;
-    overflow-y: auto;
-}
-
-.fotos {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
 }
 
 .fotos__img--fluid {
@@ -181,65 +147,6 @@ nav ul li a:hover {
 
 
 }
-
-.NuevosIngresos {
-    text-align: center;
-    margin-bottom: 10px;
-
-
-}
-
-.nuevosingresosssol__articulo {
-
-    margin-bottom: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-    padding: 10px;
-
-}
-
-.nuevodesoll__text--md {
-
-    margin-bottom: 15px;
-    text-align: left;
-    font-size: 1rem;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.nuevosingresoss__titulo--xl {
-    margin-bottom: 15px;
-    text-align: left;
-    font-size: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.nuevosingresosreceta__articulo {
-
-    margin-bottom: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-    padding: 10px;
-
-}
-
-
-.nuevosingresosreceta__titulo--xl {
-    margin-bottom: 15px;
-    text-align: left;
-    font-size: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.nuevosingresosreceta__tiitulo--xl {
-    margin-bottom: 15px;
-    text-align: right;
-    font-size: 1rem;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
 
 .pie {
     text-align: center;
@@ -256,10 +163,7 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
-.nosotros-contenedor {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .nosotros-articulo {
     font-family: 'Times New Roman', Times, serif;
@@ -276,45 +180,6 @@ nav ul li a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-.anteojos-contenedor {
-    display: flex;
-    justify-content: space-around;
-}
-
-.anteojos-articulo {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center
-}
-
-.anteojos-articulo p {
-
-    font-size: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-.anteojos-articulo h1 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-
-.lentes-contenedor {
-    display: flex;
-    justify-content: space-around;
-}
-
-.lente-contacto {
-
-    text-align: center;
-
-}
-
-.lente-contacto h1 {
-    font-size: 2rem;
-
-}
-
 .forma-contenedor {
     margin-bottom: 20px;
     font-size: 2rem;
@@ -327,10 +192,6 @@ nav ul li a:hover {
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
 
-}
-
-.linear-gradient {
-    background: linear-gradient(to right, pink, deeppink);
 }
 
 .transform:hover {
@@ -359,22 +220,6 @@ nav ul li a:hover {
 
 }
 
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 10px;
-    transform: translate(-50px);
-}
-
-.galeria figure img {
-    justify-content: center;
-}
-
-.img--fluid {
-    height: 400px;
-}
 
 .contenedor {
     display: grid;
@@ -471,17 +316,8 @@ nav ul li a:hover {
 }
 
 
-.lentes-conteneder {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.lente-contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 @media screen and (max-width:768px) {
     nav {
@@ -552,8 +388,9 @@ nav ul li a:hover {
 
     .botonera img {
         margin-bottom: 0;
-    }
 
+
+    }
 
 }
 
@@ -579,9 +416,6 @@ textarea {
     width: 50%;
 }
 
-.btn .bg-blue {}
-
-
 .nav-link {
     color: white;
 }
@@ -591,9 +425,7 @@ textarea {
 }
 
 
-.pie2 {
-    background: linear-gradient(to left, pink, deeppink);
-}
+
 
 .imag--fluid:hover {
     transform: scale(0.5);
@@ -615,21 +447,12 @@ textarea {
 
 .roundedfloat-star {
     height: min-content;
-    width: min-content
+    width: min-content;
 }
 
 .roundedfloat-end {
     height: min-content;
     width: min-content;
-}
-
-.imagelemento {
-    width: 100%;
-
-}
-
-.imagelemento img {
-    width: 100%;
 }
 
 .galery {
@@ -670,10 +493,7 @@ textarea {
     border-color: pink (var(--bs-success-rgb), var(--bs-border-opacity));
 }
 
-.nuestrahistoria-contenedor {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .g-col-2 {
     font-family: 'Times New Roman', Times, serif;
@@ -687,6 +507,24 @@ textarea {
 }
 
 
+.text-end p{
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    margin-right: 20px;
+}
+
+
+
+.img-thumbnail{
+    margin-right: 30px;
+    margin-bottom: 15%;
+}
+
+.float-sm-end{
+    width: 50
+}
+
 .g-col-2 p {
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -697,11 +535,11 @@ textarea {
 }
 
 #botonera ul li a:visited {
-    color: white
+    color: white;
 }
 
 #botonera ul li a:active {
-    color: black
+    color: black;
 }
 
 #header:hover {
@@ -789,17 +627,10 @@ h1 {
     display: flex;
 }
 
-.fotossol {
-    width: 32%;
-    margin-right: 10px;
-    justify-content: space-between;
-
-}
-
-
 
 .carousel img {
     width: 1200px;
+    margin: auto;
 }
 
 
@@ -849,13 +680,12 @@ h1 {
 }
 
 
-.contacto {
-    display: flex;
-}
+
+
+
 
 .contacto-con {
-    justify-content: space-between;
-    text-align: center;
+
     padding-right: 10px;
 }
 
@@ -864,14 +694,142 @@ h1 {
 }
 
 
-.imageness {
-    display: flex;
-}
 
-.gg {
-    justify-content: space-between;
-}
+
+
 
 .footer {
     background-color: #91C5F2;
+}
+
+.text-center strong {
+    color: #3999BF;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.col-12 {
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+#galeriasol img{
+    width: 100%;
+    height: 200px;
+}
+
+#galeriasol .col-lg-4{
+    padding: 25px;
+    margin: 0;
+}
+
+#galeriasol img:hover {
+    border: 3px solid lightgrey
+}
+
+
+.product-list img{
+    width: 20%;
+    
+}
+
+.product-list{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F2F2;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.wrap{
+    max-width: 1110px;
+    width: 90%;
+    margin: auto;
+}
+
+.wrap > h2{
+    color: #025373;
+    font-weight: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.wrap > h2::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #c7c7c7;
+    margin: 20px 0;
+}
+
+.categoria{
+    display: flex;
+    
+}
+
+.category_list{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+.category_list .category_item{
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.product-list{
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.product-list .product-item{
+    width: 22%;
+    margin-left: 3%;
+    background-color: white;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.product-list .product-item img{
+    width: 100%;
+}
+
+.product-list .product-item a{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: white;
+ }
+
+ .texto{
+    color: rgb(228, 63, 228);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+ }
+
+
+
+
+
+.carousel-item img{
+width: 1200px;
+margin: auto;
 }
